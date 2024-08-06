@@ -31,10 +31,7 @@ namespace NeonCollate.GameObjects
 
 
             if (_mainMenu == null || missionButton == null)
-            {
-                MelonLogger.Msg("Houston, we have a problem");
                 return;
-            }
 
             _yellowSidequests = GameObject.Instantiate(missionButton, missionButton.transform.parent);
             _yellowSidequests.name = "Yellow Sidequests Mission Button";

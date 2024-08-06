@@ -33,10 +33,7 @@ namespace NeonCollate.GameObjects
             foreach (LocationData locationData in allLocationData)
             {
                 if (locationData.name == "Location_Portal")
-                {
-                    MelonLogger.Msg("HUB HAS BEEN FOUND");
                     return locationData;
-                }
             }
             return null;
         }
