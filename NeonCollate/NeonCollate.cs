@@ -21,11 +21,8 @@ namespace NeonCollate
         {
             base.OnLateInitializeMelon();
 
-            // Initialize Harmony
             Harmony = HarmonyInstance;
             Harmony.PatchAll();
-
-            // Other initialization code
         }
         public override void OnSceneWasLoaded(int buildindex, string sceneName)
         {
