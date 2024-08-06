@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using NeonCollate;
 using MelonLoader;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace NeonCollate.GameObjects
 {
@@ -15,6 +16,12 @@ namespace NeonCollate.GameObjects
         {
             if (_goToJobArchive != null)
             {
+                // Hacky solution to keep text/colors consistent
+                TextMeshProUGUI text = _goToJobArchive.GetComponentInChildren<TextMeshProUGUI>();
+                text.SetText("Go to Job Archive");
+                UnityEngine.UI.Image im = _goToJobArchive.GetComponent<UnityEngine.UI.Image>();
+                im.color = new Color(1, 1, 1, 1);
+
                 _goToJobArchive.SetActive(true);
             }
         }
