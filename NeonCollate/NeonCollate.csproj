@@ -88,7 +88,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="GameObjects\VioletSidequests.cs" />
     <Compile Include="GameObjects\YellowSidequests.cs" />
     <Compile Include="GameObjects\RedSidequests.cs" />

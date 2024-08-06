@@ -59,8 +59,7 @@ namespace NeonCollate.GameObjects
             text.color = new Color(0f, 0f, 0f, 1f);
 
             TextMeshProUGUI counterText = _violetSidequests.transform.Find("Button").transform.Find("CounterText").GetComponentInChildren<TextMeshProUGUI>();
-            counterText.SetText("♡");
-            //counterText.SetText("V");
+            counterText.SetText("V");
             counterText.color = new Color(0.502f, 0.502f, 0.502f, 1f);
 
             _button.onClick.AddListener(Click);
