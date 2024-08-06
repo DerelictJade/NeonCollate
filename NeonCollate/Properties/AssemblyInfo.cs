@@ -37,7 +37,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: MelonInfo(typeof(NeonCollate.NeonCollate), "NeonCollate", "0.1.0", "DerelictJade")]
+[assembly: MelonInfo(typeof(NeonCollate.NeonCollate), "NeonCollate", "1.0.0", "DerelictJade")]
 [assembly: MelonGame("Little Flag Software, LLC", "Neon White")]
 [assembly: MelonColor(255, 196, 112, 253)]
 [assembly: MelonAuthorColor(255, 235, 215, 255)]
