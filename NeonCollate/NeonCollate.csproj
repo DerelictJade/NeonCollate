@@ -38,9 +38,6 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
-    </Reference>
     <Reference Include="MelonLoader">
       <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\MelonLoader\net35\MelonLoader.dll</HintPath>
     </Reference>
@@ -65,35 +62,16 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\Neon White_Data\Managed\UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UniverseLib.Mono">
-      <HintPath>D:\D Program Files (x86)\Steam\steamapps\common\Neon White\UserLibs\UniverseLib.Mono.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameObjects\VioletSidequests.cs" />
-    <Compile Include="GameObjects\YellowSidequests.cs" />
-    <Compile Include="GameObjects\RedSidequests.cs" />
-    <Compile Include="GameObjects\GoToJobArchive.cs" />
     <Compile Include="NeonCollate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Returns.cs" />
+    <Compile Include="Sidequests.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
