@@ -40,6 +40,9 @@ namespace NeonCollate
                 _buttonColors.disabledColor = new Color(0.7843f, 0.7843f, 0.7843f, 0.502f);
                 _button.colors = _buttonColors;
 
+                _newButton.transform.Find("Button").GetComponentInChildren<AxKLocalizedText>().Init();
+                _newButton.transform.Find("Button").GetComponentInChildren<AxKLocalizedText>().enabled = false;
+
                 _newButton.GetComponentInChildren<Image>().color = new Color(1f, 1f, 1f, 1f);
                 _newButton.transform.Find("Button").GetComponentInChildren<TextMeshProUGUI>().color = new Color(0f, 0f, 0f, 1f);
                 _newButton.transform.Find("Button").transform.Find("CounterText").GetComponentInChildren<TextMeshProUGUI>().color = new Color(0.502f, 0.502f, 0.502f, 1f);
